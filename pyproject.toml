@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dino-terrasense"
+version = "0.1.0"
+description = ""
+authors = ["ranhomri <ran.homri@tensorleap.ai>"]
+readme = "README.md"
+packages = [{include = "dino_terrasense"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.11"
+boto3 = "^1.28.62"
+code-loader = "^1.0.11"
+matplotlib = "^3.7.2"
+pyyaml = "^6.0.1"
+google-cloud-storage = "^2.11.0"
+opencv-python = "^4.8.1.78"
+tqdm = "^4.66.1"
+onnx2kerastl = "0.0.118"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

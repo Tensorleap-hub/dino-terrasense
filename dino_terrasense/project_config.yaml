@@ -1,0 +1,6 @@
+train_images_dir: <INSERT>
+val_images_dir: <INSERT>
+
+train_size: 3000
+val_size: 16
+
